@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a86e8936ab41408cb1628751df90440d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a86e8936ab41408cb1628751df90440d" ></div>
+        
+</body>
+<script>    
+    
+            var map_a86e8936ab41408cb1628751df90440d = L.map(
+                "map_a86e8936ab41408cb1628751df90440d",
+                {
+                    center: [40.0123305, -105.2965429],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6f538d908cd84841ba61160deb126059 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a86e8936ab41408cb1628751df90440d);
+        
+    
+            var feature_group_d2c1e90f1fcc4885a2fd22b214ff8384 = L.featureGroup(
+                {}
+            ).addTo(map_a86e8936ab41408cb1628751df90440d);
+        
+    
+            var marker_28064c27d70e4c968c916ea4dcf59089 = L.marker(
+                [48.7767982, -121.810997],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_ff89e37f61684861b3e2a734902bb635 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b077e22541dd447584e6a7b6093f08ab = $(`<div id="html_b077e22541dd447584e6a7b6093f08ab" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_ff89e37f61684861b3e2a734902bb635.setContent(html_b077e22541dd447584e6a7b6093f08ab);
+        
+
+        marker_28064c27d70e4c968c916ea4dcf59089.bindPopup(popup_ff89e37f61684861b3e2a734902bb635)
+        ;
+
+        
+    
+    
+            var marker_9adcca1b16ac43b19a7627a1fe25ba22 = L.marker(
+                [48.1118011, -121.1110001],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_258c9f025ad44267b679263c63fd449e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9db4f286ee73472db5877886718b5959 = $(`<div id="html_9db4f286ee73472db5877886718b5959" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_258c9f025ad44267b679263c63fd449e.setContent(html_9db4f286ee73472db5877886718b5959);
+        
+
+        marker_9adcca1b16ac43b19a7627a1fe25ba22.bindPopup(popup_258c9f025ad44267b679263c63fd449e)
+        ;
+
+        
+    
+    
+            var marker_15fb056c4b9740c5b3c96d84458f1f98 = L.marker(
+                [46.8698006, -121.7509995],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_ae4e7f1aa51048f3bd1a1f7208d57f90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e5c1af5c133495bb816e0147d34804e = $(`<div id="html_5e5c1af5c133495bb816e0147d34804e" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_ae4e7f1aa51048f3bd1a1f7208d57f90.setContent(html_5e5c1af5c133495bb816e0147d34804e);
+        
+
+        marker_15fb056c4b9740c5b3c96d84458f1f98.bindPopup(popup_ae4e7f1aa51048f3bd1a1f7208d57f90)
+        ;
+
+        
+    
+    
+            var marker_e64094efe72d425986e794dc568b29cc = L.marker(
+                [46.1997986, -122.1809998],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_390d8c63dcb8426e986588b411c4b1bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_675460b0526744128b5a4d34cb3d4965 = $(`<div id="html_675460b0526744128b5a4d34cb3d4965" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_390d8c63dcb8426e986588b411c4b1bf.setContent(html_675460b0526744128b5a4d34cb3d4965);
+        
+
+        marker_e64094efe72d425986e794dc568b29cc.bindPopup(popup_390d8c63dcb8426e986588b411c4b1bf)
+        ;
+
+        
+    
+    
+            var marker_ab3235b628c3401fb6e2853935f53f69 = L.marker(
+                [46.20579910000001, -121.4909973],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_275112b1bd5e4f4ebf3089740e1159b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63332376a48d403a9cf076d22a443b5b = $(`<div id="html_63332376a48d403a9cf076d22a443b5b" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_275112b1bd5e4f4ebf3089740e1159b2.setContent(html_63332376a48d403a9cf076d22a443b5b);
+        
+
+        marker_ab3235b628c3401fb6e2853935f53f69.bindPopup(popup_275112b1bd5e4f4ebf3089740e1159b2)
+        ;
+
+        
+    
+    
+            var marker_63b6a3f9e2a743ebb313612a574059a4 = L.marker(
+                [45.8797989, -122.0810013],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_fc9cd819196c49329bcbac3020ec341d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf83d8bf2f1b48e1b0be314adbc17e5c = $(`<div id="html_bf83d8bf2f1b48e1b0be314adbc17e5c" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_fc9cd819196c49329bcbac3020ec341d.setContent(html_bf83d8bf2f1b48e1b0be314adbc17e5c);
+        
+
+        marker_63b6a3f9e2a743ebb313612a574059a4.bindPopup(popup_fc9cd819196c49329bcbac3020ec341d)
+        ;
+
+        
+    
+    
+            var marker_f7b14db63d3c446884d3bd67fd07b8fd = L.marker(
+                [45.929798100000006, -121.8209991],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_ba28bf6159644b348c26c49251807b8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c56be9d76f84efebba542c9c1a41e80 = $(`<div id="html_1c56be9d76f84efebba542c9c1a41e80" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_ba28bf6159644b348c26c49251807b8c.setContent(html_1c56be9d76f84efebba542c9c1a41e80);
+        
+
+        marker_f7b14db63d3c446884d3bd67fd07b8fd.bindPopup(popup_ba28bf6159644b348c26c49251807b8c)
+        ;
+
+        
+    
+    
+            var marker_4c8a5766d47848c0b4d4c7656327c079 = L.marker(
+                [45.3737984, -121.6910019],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_1b8a6c6b5db148cfb4e5f63933a79f6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad7c1c92110341c899286b324b053d86 = $(`<div id="html_ad7c1c92110341c899286b324b053d86" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_1b8a6c6b5db148cfb4e5f63933a79f6a.setContent(html_ad7c1c92110341c899286b324b053d86);
+        
+
+        marker_4c8a5766d47848c0b4d4c7656327c079.bindPopup(popup_1b8a6c6b5db148cfb4e5f63933a79f6a)
+        ;
+
+        
+    
+    
+            var marker_244c627102274d62841141126b89c5e6 = L.marker(
+                [44.691799200000005, -121.8010025],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_51885f9da2e34397b3afcdd27737d9c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_543b6f95cf4b492a82075abaaafad6ee = $(`<div id="html_543b6f95cf4b492a82075abaaafad6ee" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_51885f9da2e34397b3afcdd27737d9c5.setContent(html_543b6f95cf4b492a82075abaaafad6ee);
+        
+
+        marker_244c627102274d62841141126b89c5e6.bindPopup(popup_51885f9da2e34397b3afcdd27737d9c5)
+        ;
+
+        
+    
+    
+            var marker_cc66ef5375804d60926d1b737e5eef5b = L.marker(
+                [44.4197998, -121.7710037],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_b4ddf800d8bd4b7ca6a29ad81b7f230d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c32f370244694b35b61b2bf6442663b7 = $(`<div id="html_c32f370244694b35b61b2bf6442663b7" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_b4ddf800d8bd4b7ca6a29ad81b7f230d.setContent(html_c32f370244694b35b61b2bf6442663b7);
+        
+
+        marker_cc66ef5375804d60926d1b737e5eef5b.bindPopup(popup_b4ddf800d8bd4b7ca6a29ad81b7f230d)
+        ;
+
+        
+    
+    
+            var marker_9e8338d06b834f61a3c22e0c6c449474 = L.marker(
+                [44.3797989, -121.9309998],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_033f651f51ad4e62947673b471f51f87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2977c1d41a584d7eb8626570ee6e18bc = $(`<div id="html_2977c1d41a584d7eb8626570ee6e18bc" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_033f651f51ad4e62947673b471f51f87.setContent(html_2977c1d41a584d7eb8626570ee6e18bc);
+        
+
+        marker_9e8338d06b834f61a3c22e0c6c449474.bindPopup(popup_033f651f51ad4e62947673b471f51f87)
+        ;
+
+        
+    
+    
+            var marker_26d05b639a804b8ba4c10a8453d56b41 = L.marker(
+                [44.331798600000006, -121.8310013],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_7a4469dd76a941f48ebb3ae5040559f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17b7dc34e882481faf3a74571317096e = $(`<div id="html_17b7dc34e882481faf3a74571317096e" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_7a4469dd76a941f48ebb3ae5040559f4.setContent(html_17b7dc34e882481faf3a74571317096e);
+        
+
+        marker_26d05b639a804b8ba4c10a8453d56b41.bindPopup(popup_7a4469dd76a941f48ebb3ae5040559f4)
+        ;
+
+        
+    
+    
+            var marker_ad624a3babce4d17b2e61486bb4f971e = L.marker(
+                [44.2848015, -121.8410034],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_b721562827cd43ca9be67c32c43df6be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b67d7a090cdd414e9d3e16d80cf706d4 = $(`<div id="html_b67d7a090cdd414e9d3e16d80cf706d4" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_b721562827cd43ca9be67c32c43df6be.setContent(html_b67d7a090cdd414e9d3e16d80cf706d4);
+        
+
+        marker_ad624a3babce4d17b2e61486bb4f971e.bindPopup(popup_b721562827cd43ca9be67c32c43df6be)
+        ;
+
+        
+    
+    
+            var marker_1b427ba25a9d454585e6cdeaaf51fa23 = L.marker(
+                [44.1697998, -121.7710037],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_662cceeee2224e84952619c3153b0b7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3243a01b02f948b19731b2dc28731c28 = $(`<div id="html_3243a01b02f948b19731b2dc28731c28" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_662cceeee2224e84952619c3153b0b7d.setContent(html_3243a01b02f948b19731b2dc28731c28);
+        
+
+        marker_1b427ba25a9d454585e6cdeaaf51fa23.bindPopup(popup_662cceeee2224e84952619c3153b0b7d)
+        ;
+
+        
+    
+    
+            var marker_a9e1f4e4c0c54bbb83d3dc7647332108 = L.marker(
+                [44.099800099999996, -121.7710037],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_c15714504a304927914c509852df1408 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_107ac9d2e6c54fd281a89f3d9c6a03ce = $(`<div id="html_107ac9d2e6c54fd281a89f3d9c6a03ce" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_c15714504a304927914c509852df1408.setContent(html_107ac9d2e6c54fd281a89f3d9c6a03ce);
+        
+
+        marker_a9e1f4e4c0c54bbb83d3dc7647332108.bindPopup(popup_c15714504a304927914c509852df1408)
+        ;
+
+        
+    
+    
+            var marker_506c1b4caa5b4e2b8532501fa90fa965 = L.marker(
+                [43.978801700000005, -121.6809998],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_4b1d8d1d88904be9a51326c5e355124d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f7dbd7605b64d5ab6e0aca83568ca15 = $(`<div id="html_2f7dbd7605b64d5ab6e0aca83568ca15" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_4b1d8d1d88904be9a51326c5e355124d.setContent(html_2f7dbd7605b64d5ab6e0aca83568ca15);
+        
+
+        marker_506c1b4caa5b4e2b8532501fa90fa965.bindPopup(popup_4b1d8d1d88904be9a51326c5e355124d)
+        ;
+
+        
+    
+    
+            var marker_5d7489978e784b51b8906e3e4526e04b = L.marker(
+                [43.7218018, -121.2210007],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_edf14e5a67754a0b9c2bf4ba36c092a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f8cf73259a44f548143bfd14d4c338f = $(`<div id="html_9f8cf73259a44f548143bfd14d4c338f" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_edf14e5a67754a0b9c2bf4ba36c092a8.setContent(html_9f8cf73259a44f548143bfd14d4c338f);
+        
+
+        marker_5d7489978e784b51b8906e3e4526e04b.bindPopup(popup_edf14e5a67754a0b9c2bf4ba36c092a8)
+        ;
+
+        
+    
+    
+            var marker_940c84c75c80462d913ffa5096f7d2ea = L.marker(
+                [43.569801299999995, -121.8209991],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_858df890aa5547c3876813da583c68e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f53051a66524ca9bbf939d72622d4fb = $(`<div id="html_2f53051a66524ca9bbf939d72622d4fb" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_858df890aa5547c3876813da583c68e1.setContent(html_2f53051a66524ca9bbf939d72622d4fb);
+        
+
+        marker_940c84c75c80462d913ffa5096f7d2ea.bindPopup(popup_858df890aa5547c3876813da583c68e1)
+        ;
+
+        
+    
+    
+            var marker_bf928c3f7b1442cc8eb0bce7862c3854 = L.marker(
+                [43.5119019, -120.8610001],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_18ce6160eda741f8a266dd539041a268 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4749d346609c48379cc7f07a3b8be873 = $(`<div id="html_4749d346609c48379cc7f07a3b8be873" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_18ce6160eda741f8a266dd539041a268.setContent(html_4749d346609c48379cc7f07a3b8be873);
+        
+
+        marker_bf928c3f7b1442cc8eb0bce7862c3854.bindPopup(popup_18ce6160eda741f8a266dd539041a268)
+        ;
+
+        
+    
+    
+            var marker_c0f09291fb664eb48040c6290cee7606 = L.marker(
+                [43.240798999999996, -122.10099790000001],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_8b0d874ad8a947e388606319e844d49a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f08cc6022184e7fa61e327bbbec1f59 = $(`<div id="html_8f08cc6022184e7fa61e327bbbec1f59" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_8b0d874ad8a947e388606319e844d49a.setContent(html_8f08cc6022184e7fa61e327bbbec1f59);
+        
+
+        marker_c0f09291fb664eb48040c6290cee7606.bindPopup(popup_8b0d874ad8a947e388606319e844d49a)
+        ;
+
+        
+    
+    
+            var marker_27021b1ed2dd4c4b8d88227e80911d42 = L.marker(
+                [43.471900899999994, -120.7509995],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_4b4454d604684fce9c4710e54d384c2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67e68609640d4881aea546c68172323e = $(`<div id="html_67e68609640d4881aea546c68172323e" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_4b4454d604684fce9c4710e54d384c2b.setContent(html_67e68609640d4881aea546c68172323e);
+        
+
+        marker_27021b1ed2dd4c4b8d88227e80911d42.bindPopup(popup_4b4454d604684fce9c4710e54d384c2b)
+        ;
+
+        
+    
+    
+            var marker_17359941de19467a9c8ee91adf8f1211 = L.marker(
+                [43.3609009, -120.6610031],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_3f36e74db7314f1c95ff598fe1aef20f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f40603f70ed5401487a25cab8144b0cb = $(`<div id="html_f40603f70ed5401487a25cab8144b0cb" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_3f36e74db7314f1c95ff598fe1aef20f.setContent(html_f40603f70ed5401487a25cab8144b0cb);
+        
+
+        marker_17359941de19467a9c8ee91adf8f1211.bindPopup(popup_3f36e74db7314f1c95ff598fe1aef20f)
+        ;
+
+        
+    
+    
+            var marker_401cc0d8ff61434e9a10d19d3e6016b8 = L.marker(
+                [42.9299011, -122.1210022],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_fc8fdf91c60c4002a85502bb4cb43273 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0b26b345f4e4acb9eb9a018fd940db5 = $(`<div id="html_a0b26b345f4e4acb9eb9a018fd940db5" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_fc8fdf91c60c4002a85502bb4cb43273.setContent(html_a0b26b345f4e4acb9eb9a018fd940db5);
+        
+
+        marker_401cc0d8ff61434e9a10d19d3e6016b8.bindPopup(popup_fc8fdf91c60c4002a85502bb4cb43273)
+        ;
+
+        
+    
+    
+            var marker_56b952cde33141adb3343e4f053b0c57 = L.marker(
+                [44.4299011, -110.6709976],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_d22ed551f0034ba7b4e13ffc15ba0643 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d80632a45444e1db0d3d421f1f9c941 = $(`<div id="html_0d80632a45444e1db0d3d421f1f9c941" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_d22ed551f0034ba7b4e13ffc15ba0643.setContent(html_0d80632a45444e1db0d3d421f1f9c941);
+        
+
+        marker_56b952cde33141adb3343e4f053b0c57.bindPopup(popup_d22ed551f0034ba7b4e13ffc15ba0643)
+        ;
+
+        
+    
+    
+            var marker_5478b0f9dd8b4a18b9cf41294eb013c5 = L.marker(
+                [43.0998993, -118.7509995],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_26994c8c6ce7460e9d01a026ac63713a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_315988c64a1e45efb32d4c3c85ec30eb = $(`<div id="html_315988c64a1e45efb32d4c3c85ec30eb" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_26994c8c6ce7460e9d01a026ac63713a.setContent(html_315988c64a1e45efb32d4c3c85ec30eb);
+        
+
+        marker_5478b0f9dd8b4a18b9cf41294eb013c5.bindPopup(popup_26994c8c6ce7460e9d01a026ac63713a)
+        ;
+
+        
+    
+    
+            var marker_4e982d8f1282405cb7be031256ed0369 = L.marker(
+                [43.1498985, -117.4710007],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_5584d5026c3f430f9a71d13412ac2f45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11ba0b9dcdb840e1847912745a629901 = $(`<div id="html_11ba0b9dcdb840e1847912745a629901" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_5584d5026c3f430f9a71d13412ac2f45.setContent(html_11ba0b9dcdb840e1847912745a629901);
+        
+
+        marker_4e982d8f1282405cb7be031256ed0369.bindPopup(popup_5584d5026c3f430f9a71d13412ac2f45)
+        ;
+
+        
+    
+    
+            var marker_0f725023dc12493280ac96afcd067d7d = L.marker(
+                [42.9999008, -117.8010025],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_0a584e4eff1c4db3b9198ac2c23d6da7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d3a6aa3a9ab49208b9f368cffb735e7 = $(`<div id="html_4d3a6aa3a9ab49208b9f368cffb735e7" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_0a584e4eff1c4db3b9198ac2c23d6da7.setContent(html_4d3a6aa3a9ab49208b9f368cffb735e7);
+        
+
+        marker_0f725023dc12493280ac96afcd067d7d.bindPopup(popup_0a584e4eff1c4db3b9198ac2c23d6da7)
+        ;
+
+        
+    
+    
+            var marker_7859791909ec4a75a399287983425df0 = L.marker(
+                [43.419899, -113.5009995],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_7ae3038f3cb6475cb4fb02be8c2ff137 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30232f196c994edaa1733d2c7fd77f48 = $(`<div id="html_30232f196c994edaa1733d2c7fd77f48" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_7ae3038f3cb6475cb4fb02be8c2ff137.setContent(html_30232f196c994edaa1733d2c7fd77f48);
+        
+
+        marker_7859791909ec4a75a399287983425df0.bindPopup(popup_7ae3038f3cb6475cb4fb02be8c2ff137)
+        ;
+
+        
+    
+    
+            var marker_b5a68f03a2e043598abc4dfaae27ee18 = L.marker(
+                [43.4999008, -112.45099640000001],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_37b62e5f26b949c79e3addf5a4020636 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb9070055ed5497186be86502dd390d3 = $(`<div id="html_bb9070055ed5497186be86502dd390d3" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_37b62e5f26b949c79e3addf5a4020636.setContent(html_bb9070055ed5497186be86502dd390d3);
+        
+
+        marker_b5a68f03a2e043598abc4dfaae27ee18.bindPopup(popup_37b62e5f26b949c79e3addf5a4020636)
+        ;
+
+        
+    
+    
+            var marker_21fe5548db4f4476a6604c36c9780593 = L.marker(
+                [43.1799011, -114.35099790000001],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_79ba91a9267346c9a28e9e3a079ae275 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27bc8da14a854567b5e0a484faf350e2 = $(`<div id="html_27bc8da14a854567b5e0a484faf350e2" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_79ba91a9267346c9a28e9e3a079ae275.setContent(html_27bc8da14a854567b5e0a484faf350e2);
+        
+
+        marker_21fe5548db4f4476a6604c36c9780593.bindPopup(popup_79ba91a9267346c9a28e9e3a079ae275)
+        ;
+
+        
+    
+    
+            var marker_71cee2b19bbd4c89b1cfce4e14783006 = L.marker(
+                [42.605899799999996, -117.5810013],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_71ea1a5036774923ac07d9a129737943 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c9c03e4a6bb4668a365ca0c6ee93a16 = $(`<div id="html_0c9c03e4a6bb4668a365ca0c6ee93a16" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_71ea1a5036774923ac07d9a129737943.setContent(html_0c9c03e4a6bb4668a365ca0c6ee93a16);
+        
+
+        marker_71cee2b19bbd4c89b1cfce4e14783006.bindPopup(popup_71ea1a5036774923ac07d9a129737943)
+        ;
+
+        
+    
+    
+            var marker_5cde4d2212ac40708a2813568f43e8db = L.marker(
+                [41.579898799999995, -121.5709991],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_096c2a43a85d4fb8a54cf01e13c877c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_faa871335903496b89d062011b935817 = $(`<div id="html_faa871335903496b89d062011b935817" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_096c2a43a85d4fb8a54cf01e13c877c9.setContent(html_faa871335903496b89d062011b935817);
+        
+
+        marker_5cde4d2212ac40708a2813568f43e8db.bindPopup(popup_096c2a43a85d4fb8a54cf01e13c877c9)
+        ;
+
+        
+    
+    
+            var marker_bd9ec41bb8c44129a247bfd24fd890b5 = L.marker(
+                [42.8799019, -113.2210007],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_28d4ddde7ef24af88ccb449c4968e865 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cffbd4d7bb44f199cedd76dc7413989 = $(`<div id="html_5cffbd4d7bb44f199cedd76dc7413989" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_28d4ddde7ef24af88ccb449c4968e865.setContent(html_5cffbd4d7bb44f199cedd76dc7413989);
+        
+
+        marker_bd9ec41bb8c44129a247bfd24fd890b5.bindPopup(popup_28d4ddde7ef24af88ccb449c4968e865)
+        ;
+
+        
+    
+    
+            var marker_64273a30a511456498df2bca84954ce7 = L.marker(
+                [41.419899, -122.20099640000001],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_5c56eeac865d4d8989b90314a9f68125 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98e399ca6ee64333906fd5cecbe3ce1c = $(`<div id="html_98e399ca6ee64333906fd5cecbe3ce1c" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_5c56eeac865d4d8989b90314a9f68125.setContent(html_98e399ca6ee64333906fd5cecbe3ce1c);
+        
+
+        marker_64273a30a511456498df2bca84954ce7.bindPopup(popup_5c56eeac865d4d8989b90314a9f68125)
+        ;
+
+        
+    
+    
+            var marker_25c5fd12656d40d8a14af27c1abe3643 = L.marker(
+                [41.1778984, -121.4410019],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_4637baf9760e4cbaaecc80819f7ac0b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e47312c9b554677be61620044be7d0c = $(`<div id="html_6e47312c9b554677be61620044be7d0c" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_4637baf9760e4cbaaecc80819f7ac0b4.setContent(html_6e47312c9b554677be61620044be7d0c);
+        
+
+        marker_25c5fd12656d40d8a14af27c1abe3643.bindPopup(popup_4637baf9760e4cbaaecc80819f7ac0b4)
+        ;
+
+        
+    
+    
+            var marker_e72b0cc9682e488e9688530279257756 = L.marker(
+                [40.954898799999995, -121.3610001],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_a557bd31567a4d6b8add397cdfb8bbf2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f606a20e76fc4a2daf04a8ca33ec47d0 = $(`<div id="html_f606a20e76fc4a2daf04a8ca33ec47d0" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_a557bd31567a4d6b8add397cdfb8bbf2.setContent(html_f606a20e76fc4a2daf04a8ca33ec47d0);
+        
+
+        marker_e72b0cc9682e488e9688530279257756.bindPopup(popup_a557bd31567a4d6b8add397cdfb8bbf2)
+        ;
+
+        
+    
+    
+            var marker_a19c23d7fdb14a1e9093331a6237e386 = L.marker(
+                [40.77989960000001, -121.60099790000001],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_b56db04f38f3431cb9b68186b33995b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e5042183b61452fbdc007ac0d64fdde = $(`<div id="html_9e5042183b61452fbdc007ac0d64fdde" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_b56db04f38f3431cb9b68186b33995b8.setContent(html_9e5042183b61452fbdc007ac0d64fdde);
+        
+
+        marker_a19c23d7fdb14a1e9093331a6237e386.bindPopup(popup_b56db04f38f3431cb9b68186b33995b8)
+        ;
+
+        
+    
+    
+            var marker_4001b355ae80461e8714bd5b04b52a18 = L.marker(
+                [40.6799011, -121.5510025],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_a31ef4021bd242c58cf6a83e8932b471 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56865719ee8446be9a3700101a328207 = $(`<div id="html_56865719ee8446be9a3700101a328207" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_a31ef4021bd242c58cf6a83e8932b471.setContent(html_56865719ee8446be9a3700101a328207);
+        
+
+        marker_4001b355ae80461e8714bd5b04b52a18.bindPopup(popup_a31ef4021bd242c58cf6a83e8932b471)
+        ;
+
+        
+    
+    
+            var marker_d730437821384ac9952ddd19f5297aea = L.marker(
+                [40.6299019, -120.8310013],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_3fc008f92264440fad16c06a4c8f2deb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_add3445f65294109975f2779e0bd93fd = $(`<div id="html_add3445f65294109975f2779e0bd93fd" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_3fc008f92264440fad16c06a4c8f2deb.setContent(html_add3445f65294109975f2779e0bd93fd);
+        
+
+        marker_d730437821384ac9952ddd19f5297aea.bindPopup(popup_3fc008f92264440fad16c06a4c8f2deb)
+        ;
+
+        
+    
+    
+            var marker_4014566600104548ba8d2ccdf262bd42 = L.marker(
+                [40.491901399999996, -121.5009995],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_d0dd6f0a692c467fbd0eaa561f24d664 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_316c2904072b468fac651df0c0f0fb6e = $(`<div id="html_316c2904072b468fac651df0c0f0fb6e" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_d0dd6f0a692c467fbd0eaa561f24d664.setContent(html_316c2904072b468fac651df0c0f0fb6e);
+        
+
+        marker_4014566600104548ba8d2ccdf262bd42.bindPopup(popup_d0dd6f0a692c467fbd0eaa561f24d664)
+        ;
+
+        
+    
+    
+            var marker_4cca8d176dbf45db8582036e37421b9b = L.marker(
+                [38.9698982, -122.7710037],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_fc346b97761b4d2cadac4834613af11a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c871c5162b6a4f8d85ff20fa3a622338 = $(`<div id="html_c871c5162b6a4f8d85ff20fa3a622338" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_fc346b97761b4d2cadac4834613af11a.setContent(html_c871c5162b6a4f8d85ff20fa3a622338);
+        
+
+        marker_4cca8d176dbf45db8582036e37421b9b.bindPopup(popup_fc346b97761b4d2cadac4834613af11a)
+        ;
+
+        
+    
+    
+            var marker_098447cf5f084af495b8aaca52c678c2 = L.marker(
+                [39.3749008, -119.7210007],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_2139f9d907c74b84b911dc059b0494eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd9787e63b3848459df251541c48301a = $(`<div id="html_cd9787e63b3848459df251541c48301a" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_2139f9d907c74b84b911dc059b0494eb.setContent(html_cd9787e63b3848459df251541c48301a);
+        
+
+        marker_098447cf5f084af495b8aaca52c678c2.bindPopup(popup_2139f9d907c74b84b911dc059b0494eb)
+        ;
+
+        
+    
+    
+            var marker_122f86fa5403420cbc2a72a80de4459a = L.marker(
+                [39.6500015, -107.03099820000001],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_e5f6360022bd433ab9abe240e9d0c955 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d795d0b017414a6092457b4e65e88595 = $(`<div id="html_d795d0b017414a6092457b4e65e88595" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_e5f6360022bd433ab9abe240e9d0c955.setContent(html_d795d0b017414a6092457b4e65e88595);
+        
+
+        marker_122f86fa5403420cbc2a72a80de4459a.bindPopup(popup_e5f6360022bd433ab9abe240e9d0c955)
+        ;
+
+        
+    
+    
+            var marker_dfb5fd707f8a481c816d087223ad5c5c = L.marker(
+                [37.9999008, -119.03099820000001],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_16f78826eb2341fa88163e085a39f300 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_452342099b864cf78082e8f4b91b9e02 = $(`<div id="html_452342099b864cf78082e8f4b91b9e02" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_16f78826eb2341fa88163e085a39f300.setContent(html_452342099b864cf78082e8f4b91b9e02);
+        
+
+        marker_dfb5fd707f8a481c816d087223ad5c5c.bindPopup(popup_16f78826eb2341fa88163e085a39f300)
+        ;
+
+        
+    
+    
+            var marker_112f88d9141c49d58b6fdc15869b2d9a = L.marker(
+                [38.970001200000006, -112.5009995],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_506c88f915824e85860e93e9929dceb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_871c950ca7cd4c8688831f99261b7198 = $(`<div id="html_871c950ca7cd4c8688831f99261b7198" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_506c88f915824e85860e93e9929dceb9.setContent(html_871c950ca7cd4c8688831f99261b7198);
+        
+
+        marker_112f88d9141c49d58b6fdc15869b2d9a.bindPopup(popup_506c88f915824e85860e93e9929dceb9)
+        ;
+
+        
+    
+    
+            var marker_4a13835062c4439989ff6c9f173b90aa = L.marker(
+                [37.8799019, -119.0009995],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_5e521bdaa5d84bcdb0fea15045a11761 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07f0b1b3b688431b9f2877eadbe96452 = $(`<div id="html_07f0b1b3b688431b9f2877eadbe96452" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_5e521bdaa5d84bcdb0fea15045a11761.setContent(html_07f0b1b3b688431b9f2877eadbe96452);
+        
+
+        marker_4a13835062c4439989ff6c9f173b90aa.bindPopup(popup_5e521bdaa5d84bcdb0fea15045a11761)
+        ;
+
+        
+    
+    
+            var marker_27bdcb9ffddb478b9536d4b735b42b4b = L.marker(
+                [37.6918983, -119.0210037],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_eeb6588b38ef44f08f19595162ec35e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a095977592d49549e64c673fc22d4f2 = $(`<div id="html_0a095977592d49549e64c673fc22d4f2" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_eeb6588b38ef44f08f19595162ec35e1.setContent(html_0a095977592d49549e64c673fc22d4f2);
+        
+
+        marker_27bdcb9ffddb478b9536d4b735b42b4b.bindPopup(popup_eeb6588b38ef44f08f19595162ec35e1)
+        ;
+
+        
+    
+    
+            var marker_19b5a40662c4496883a3909ccc2c6b8d = L.marker(
+                [37.6999016, -118.8710022],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_8d3b66ad74ee41b68ded05bc3432de77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c417a11f9224f1f8bfee792797c2c71 = $(`<div id="html_5c417a11f9224f1f8bfee792797c2c71" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_8d3b66ad74ee41b68ded05bc3432de77.setContent(html_5c417a11f9224f1f8bfee792797c2c71);
+        
+
+        marker_19b5a40662c4496883a3909ccc2c6b8d.bindPopup(popup_8d3b66ad74ee41b68ded05bc3432de77)
+        ;
+
+        
+    
+    
+            var marker_45453d4b895646ef8f40277e915ba653 = L.marker(
+                [37.579898799999995, -119.0510025],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_76921a0a7ac44d79a9a0235c7f2e25d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e293edd7d1de4db39b2e92cf1ee1beab = $(`<div id="html_e293edd7d1de4db39b2e92cf1ee1beab" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_76921a0a7ac44d79a9a0235c7f2e25d0.setContent(html_e293edd7d1de4db39b2e92cf1ee1beab);
+        
+
+        marker_45453d4b895646ef8f40277e915ba653.bindPopup(popup_76921a0a7ac44d79a9a0235c7f2e25d0)
+        ;
+
+        
+    
+    
+            var marker_80522ff613ad4161a1284a20d2917071 = L.marker(
+                [37.0199013, -117.45099640000001],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_ca53363fed8f4fd388ccd152eb0b84d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8602edea8d8424293d44045afe5c05e = $(`<div id="html_e8602edea8d8424293d44045afe5c05e" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_ca53363fed8f4fd388ccd152eb0b84d1.setContent(html_e8602edea8d8424293d44045afe5c05e);
+        
+
+        marker_80522ff613ad4161a1284a20d2917071.bindPopup(popup_ca53363fed8f4fd388ccd152eb0b84d1)
+        ;
+
+        
+    
+    
+            var marker_fcea1af778a3473bb34442048917e5a9 = L.marker(
+                [37.5800018, -112.6709976],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_cd06a292ca9e4434aa5c3f7715652273 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d48260e53022490ead194b540dea8b58 = $(`<div id="html_d48260e53022490ead194b540dea8b58" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_cd06a292ca9e4434aa5c3f7715652273.setContent(html_d48260e53022490ead194b540dea8b58);
+        
+
+        marker_fcea1af778a3473bb34442048917e5a9.bindPopup(popup_cd06a292ca9e4434aa5c3f7715652273)
+        ;
+
+        
+    
+    
+            var marker_e00d30c7edde4888adefc00d866a29ae = L.marker(
+                [37.257, -113.6210022],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_644423a21c924d10a6adf1736e34955d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a430cc57cb84397b96e54c458a21091 = $(`<div id="html_4a430cc57cb84397b96e54c458a21091" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_644423a21c924d10a6adf1736e34955d.setContent(html_4a430cc57cb84397b96e54c458a21091);
+        
+
+        marker_e00d30c7edde4888adefc00d866a29ae.bindPopup(popup_644423a21c924d10a6adf1736e34955d)
+        ;
+
+        
+    
+    
+            var marker_d930db978d3b4d60b406587519959382 = L.marker(
+                [37.32799910000001, -112.40100100000001],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_adafd8fcb358453abf39eebaeb9dfbbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5c2d1154c634a73b95c2090689c07f4 = $(`<div id="html_c5c2d1154c634a73b95c2090689c07f4" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_adafd8fcb358453abf39eebaeb9dfbbe.setContent(html_c5c2d1154c634a73b95c2090689c07f4);
+        
+
+        marker_d930db978d3b4d60b406587519959382.bindPopup(popup_adafd8fcb358453abf39eebaeb9dfbbe)
+        ;
+
+        
+    
+    
+            var marker_383b1d0c919b403897e8b5990add8dbd = L.marker(
+                [36.3578987, -118.3209991],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_ae1b0b342a6949a08e7d08962084ba3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b96330bd6a9b47679e578e5ca0c918d5 = $(`<div id="html_b96330bd6a9b47679e578e5ca0c918d5" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_ae1b0b342a6949a08e7d08962084ba3d.setContent(html_b96330bd6a9b47679e578e5ca0c918d5);
+        
+
+        marker_383b1d0c919b403897e8b5990add8dbd.bindPopup(popup_ae1b0b342a6949a08e7d08962084ba3d)
+        ;
+
+        
+    
+    
+            var marker_6e7aa03703df4028bc0fc5b8e49819fb = L.marker(
+                [36.02989960000001, -117.8209991],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_27ea67bad9a84491a11ffc90a9f7f20a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75f229a32d804df28375e61beb0e2011 = $(`<div id="html_75f229a32d804df28375e61beb0e2011" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_27ea67bad9a84491a11ffc90a9f7f20a.setContent(html_75f229a32d804df28375e61beb0e2011);
+        
+
+        marker_6e7aa03703df4028bc0fc5b8e49819fb.bindPopup(popup_27ea67bad9a84491a11ffc90a9f7f20a)
+        ;
+
+        
+    
+    
+            var marker_44a495fa1e82436883a27554b4812fdb = L.marker(
+                [36.3800011, -113.1309967],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_188b0e4476eb48a98f329d01d699c93e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df6879a727244bc290e4502950572be6 = $(`<div id="html_df6879a727244bc290e4502950572be6" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_188b0e4476eb48a98f329d01d699c93e.setContent(html_df6879a727244bc290e4502950572be6);
+        
+
+        marker_44a495fa1e82436883a27554b4812fdb.bindPopup(popup_188b0e4476eb48a98f329d01d699c93e)
+        ;
+
+        
+    
+    
+            var marker_ec4af59f5a28439e8e19acffd1e00633 = L.marker(
+                [34.75, -116.6210022],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_971b3605a0e04bb198655fcc3979b62d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9976b18530e34ff98cf19554353ebbe0 = $(`<div id="html_9976b18530e34ff98cf19554353ebbe0" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_971b3605a0e04bb198655fcc3979b62d.setContent(html_9976b18530e34ff98cf19554353ebbe0);
+        
+
+        marker_ec4af59f5a28439e8e19acffd1e00633.bindPopup(popup_971b3605a0e04bb198655fcc3979b62d)
+        ;
+
+        
+    
+    
+            var marker_db12ebc8808849f680007b253f5e03c5 = L.marker(
+                [35.8699989, -106.5709991],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_14a75ea68923444fb76e863b05743a42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4186cece62da4655a858984b9d4ce986 = $(`<div id="html_4186cece62da4655a858984b9d4ce986" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_14a75ea68923444fb76e863b05743a42.setContent(html_4186cece62da4655a858984b9d4ce986);
+        
+
+        marker_db12ebc8808849f680007b253f5e03c5.bindPopup(popup_14a75ea68923444fb76e863b05743a42)
+        ;
+
+        
+    
+    
+            var marker_638f0a58d667404b88cadb23490558cb = L.marker(
+                [35.3699989, -111.5009995],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_795d266b6f594cf5af28706b0d4e6fcb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36ed963dbd204b8fa9fb5b99f854cc46 = $(`<div id="html_36ed963dbd204b8fa9fb5b99f854cc46" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_795d266b6f594cf5af28706b0d4e6fcb.setContent(html_36ed963dbd204b8fa9fb5b99f854cc46);
+        
+
+        marker_638f0a58d667404b88cadb23490558cb.bindPopup(popup_795d266b6f594cf5af28706b0d4e6fcb)
+        ;
+
+        
+    
+    
+            var marker_c446c89659df4a07900a300c2a09e215 = L.marker(
+                [34.5499992, -115.78099820000001],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_8124cb5443d44b5ebac362d025fd1256 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60b3e753c00d4eac92d7dbad232ca721 = $(`<div id="html_60b3e753c00d4eac92d7dbad232ca721" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_8124cb5443d44b5ebac362d025fd1256.setContent(html_60b3e753c00d4eac92d7dbad232ca721);
+        
+
+        marker_c446c89659df4a07900a300c2a09e215.bindPopup(popup_8124cb5443d44b5ebac362d025fd1256)
+        ;
+
+        
+    
+    
+            var marker_b0b5f84c20a84068b4a54193636c167e = L.marker(
+                [34.7999992, -108.0009995],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_5545e39ae06640408bf34d668e802042 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c25e3ec65a43472da7e7801cd2af990e = $(`<div id="html_c25e3ec65a43472da7e7801cd2af990e" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_5545e39ae06640408bf34d668e802042.setContent(html_c25e3ec65a43472da7e7801cd2af990e);
+        
+
+        marker_b0b5f84c20a84068b4a54193636c167e.bindPopup(popup_5545e39ae06640408bf34d668e802042)
+        ;
+
+        
+    
+    
+            var marker_b6723f4ee54f40a79ace735803758bf7 = L.marker(
+                [33.7801018, -105.9309998],
+                {}
+            ).addTo(feature_group_d2c1e90f1fcc4885a2fd22b214ff8384);
+        
+    
+        var popup_60522f8917b34ebd8fecddcd885345da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3717f68f34e341a396edef563018e967 = $(`<div id="html_3717f68f34e341a396edef563018e967" style="width: 100.0%; height: 100.0%;"><module 'folium' from '/home/wallacexiv/Desktop/PythonMegaCourse/Project4/venv/lib/python3.8/site-packages/folium/__init__.py'></div>`)[0];
+            popup_60522f8917b34ebd8fecddcd885345da.setContent(html_3717f68f34e341a396edef563018e967);
+        
+
+        marker_b6723f4ee54f40a79ace735803758bf7.bindPopup(popup_60522f8917b34ebd8fecddcd885345da)
+        ;
+
+        
+    
+</script>
